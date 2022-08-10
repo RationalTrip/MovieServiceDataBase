@@ -12,7 +12,7 @@ The first logical group is the Movie group. This group contains tables that cont
 6. MovieInfo - a table that contains general information about movie like title, description, etc.
 7. Movie - a table that connects all the table above.
 
-![Movie Diagram](DiagramImages\MovieDiagram.JPG)
+![Movie Diagram](DiagramImages/MovieDiagram.JPG)
 
 
 The second logical group is the Movie Maker group. This group contains tables that contains information about actors, producers, etc and links it with movie.
@@ -22,7 +22,7 @@ The second logical group is the Movie Maker group. This group contains tables th
 3. ProducerRole - a table that links Movie with MovieMaker, that has n-to-n connection. This table means that Movie Maker is producer of the movie.
 4. VoicerRole - a table that links Movie with MovieMaker, that has n-to-n connection. This table means that Movie Maker is voicer of the movie.
 
-![Movie Maker Diagram](DiagramImages\MovieMakerDiagram.JPG)
+![Movie Maker Diagram](DiagramImages/MovieMakerDiagram.JPG)
 
 
 Last logical group is the Account group. This group contains tables that contains account-related information.
@@ -32,7 +32,7 @@ Last logical group is the Account group. This group contains tables that contain
 3. MovieListsFilms - a table that contains information about movies in each of the movie lists.
 4. MovieRates - a table that contains information about users rates for movies.
 
-![Account Diagram](DiagramImages\AccountDiagram.JPG)
+![Account Diagram](DiagramImages/AccountDiagram.JPG)
 
 Current repository contains 4 queries:
 1. DbInitialization.sql - is used to create database and every table.
